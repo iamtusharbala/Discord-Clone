@@ -1,0 +1,266 @@
+html {
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.headline {
+  font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.navbar,
+.grid-flex {
+  width: 100%;
+}
+
+.grid-flex {
+  display: flex;
+  align-items: center;
+  padding: 120px 0px;
+}
+
+.greybg {
+  background-color: #f6f6f6;
+}
+
+.discord-logo {
+  width: 30%;
+  display: inline;
+  margin-left: 140px;
+}
+
+.discord-logo img {
+  margin-top: 30px;
+}
+
+.menu-nav {
+  margin-left: 370px;
+  margin-top: 20px;
+}
+
+.menu-nav ul {
+  margin-top: -63px;
+}
+.menu-nav ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.open-discord .btn-small {
+  margin-left: 190px;
+  margin-top: -11px;
+}
+
+.windows-download {
+  margin-right: 24px;
+}
+
+.browser-open {
+  background: #23272a;
+  color: white;
+}
+
+.navbar ul li {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.background {
+  width: 100%;
+  background: #404eed;
+  min-height: 626px;
+}
+
+.background-text {
+  position: relative;
+  top: 139px;
+  color: white;
+}
+.background-text h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.background-text h6 {
+  font-size: 20px;
+  padding: 0px 350px;
+  line-height: 1.625;
+  font-weight: 100;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px 3px;
+  border: none;
+}
+
+.navbar .btn-small {
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 7px 16px;
+  float: right;
+}
+
+.btn-large {
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.text-medium {
+  line-height: 1.625;
+}
+
+.navbar.li.btn-small:hover {
+  cursor: pointer;
+}
+
+.download,
+.background-text {
+  text-align: center;
+}
+
+.download button {
+  width: 200px;
+}
+
+.img-section,
+.description-text {
+  width: 50%;
+}
+
+.left-img {
+  float: left;
+  margin-left: -311px;
+  margin-top: -123px;
+}
+
+.right-img {
+  float: right;
+  margin-top: -131px;
+}
+
+.description-text {
+  margin: 120px;
+}
+
+.text-medium {
+  margin-top: 24px;
+  line-height: 1.625;
+}
+
+.img-section {
+  margin-left: 126px;
+}
+
+.description {
+  text-align: center;
+  padding: 50px;
+}
+
+.download-blue {
+  width: 300px !important;
+  background-color: #5865f2;
+  color: white;
+}
+
+.image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-right {
+  margin-right: 133px;
+}
+
+#footer {
+  background-color: #23272a;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.infobox {
+  position: absolute;
+  z-index: 1;
+  margin-top: 98px;
+  margin-left: 115px;
+}
+
+.footer-links {
+  float: right;
+  position: relative;
+  right: 100px;
+}
+
+.routesection {
+  float: left;
+  padding: 40px;
+}
+
+.routesection h5 {
+  color: #5865f2;
+  font-size: 16px;
+}
+
+.footer-ul {
+  padding-left: 0;
+}
+
+.footer-ul li {
+  padding: 10px 0px;
+}
+
+.footer-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-ul li a:hover {
+  text-decoration: underline;
+}
+
+.usa-flag {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.small-text {
+  color: white;
+  font-size: 14px;
+  display: inline;
+  line-height: 18px;
+}
+
+.social-media {
+  margin-top: 24px;
+  margin-left: -11px;
+}
+
+.social-media i {
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
