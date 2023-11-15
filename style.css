@@ -9,190 +9,133 @@ html {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 body {
   margin: 0;
-}
-ul {
-  list-style: none;
+  box-sizing: border-box;
 }
 
-h2 {
-  font-size: 48px;
+.text-medium,
+.text p {
+  line-height: 1.625;
 }
 
-.navbar,
-.grid-flex {
+.grid-flex img,
+.image-center img,
+.img-background img {
   width: 100%;
 }
-
-.grid-flex {
-  display: flex;
-  align-items: center;
-  padding: 120px 0px;
-}
-
-.greybg {
-  background-color: #f6f6f6;
-}
-
-.discord-logo {
-  width: 30%;
-  display: inline;
-  margin-left: 140px;
-}
-
-.discord-logo img {
-  margin-top: 30px;
-}
-
-.menu-nav {
-  margin-left: 370px;
-  margin-top: 20px;
-}
-
-.menu-nav ul {
-  margin-top: -63px;
-}
-.menu-nav ul li:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.open-discord .btn-small {
-  margin-left: 190px;
-  margin-top: -11px;
-}
-
-.windows-download {
-  margin-right: 24px;
-}
-
-.browser-open {
-  background: #23272a;
-  color: white;
-}
-
-.navbar ul li {
-  float: left;
-  padding: 10px;
-  margin: 10px;
-  color: white;
-  font-size: 14px;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 .background {
-  width: 100%;
   background: #404eed;
   min-height: 626px;
 }
 
-.background-text {
+.navbar {
+  background: #404eed;
   position: relative;
-  top: 139px;
-  color: white;
-}
-.background-text h1 {
-  font-size: 56px;
-  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  min-height: 40px;
+  padding: auto;
 }
 
-.background-text h6 {
-  font-size: 20px;
-  padding: 0px 350px;
-  line-height: 1.625;
-  font-weight: 100;
+ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  float: left;
+  padding: 0 1.3rem;
+  color: #fff;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 button {
   border-radius: 30px;
-  padding: 10px 3px;
+  padding: 1% 2%;
   border: none;
+  width: fit-content;
 }
 
-.navbar .btn-small {
-  border-radius: 40px;
-  font-size: 14px;
-  padding: 7px 16px;
-  float: right;
+.discord-logo {
+  margin-top: 16px;
+  padding: 0 5%;
 }
 
-.btn-large {
-  border-radius: 28px;
-  font-size: 20px;
-  padding: 16px 32px;
-}
-
-.text-medium {
-  line-height: 1.625;
-}
-
-.navbar.li.btn-small:hover {
-  cursor: pointer;
-}
-
-.download,
-.background-text {
-  text-align: center;
-}
-
-.download button {
-  width: 200px;
-}
-
-.img-section,
-.description-text {
-  width: 50%;
-}
-
-.left-img {
-  float: left;
-  margin-left: -311px;
-  margin-top: -123px;
-}
-
-.right-img {
-  float: right;
-  margin-top: -131px;
-}
-
-.description-text {
-  margin: 120px;
-}
-
-.text-medium {
-  margin-top: 24px;
-  line-height: 1.625;
-}
-
-.img-section {
-  margin-left: 126px;
-}
-
+.grid-flex,
 .description {
-  text-align: center;
-  padding: 50px;
+  padding: 5% 8%;
 }
 
-.download-blue {
-  width: 300px !important;
-  background-color: #5865f2;
-  color: white;
-}
-
-.image-center {
+.grid-flex {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-.img-right {
-  margin-right: 133px;
+.description {
+  padding: 5% 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
 }
+
+.description-text {
+  padding: 0 5%;
+}
+
+.background-text {
+  position: relative;
+  text-align: center;
+  padding: 0px 5%;
+  color: #fff;
+}
+
+.img-background {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.img-section,
+.img-right {
+  width: 100%;
+}
+.greybg {
+  background-color: #f6f6f6;
+}
+
+.download button {
+  background-color: #5865f2;
+  color: #fff;
+  padding: 7% 14%;
+  font-size: 0.8rem;
+  width: fit-content;
+}
+
+.windows-download {
+}
+
+.browser-open {
+  background-color: #23272a;
+  color: #fff;
+}
+/* footer */
 
 #footer {
   background-color: #23272a;
@@ -203,9 +146,6 @@ button {
 
 .infobox {
   position: absolute;
-  z-index: 1;
-  margin-top: 98px;
-  margin-left: 115px;
 }
 
 .footer-links {
@@ -241,7 +181,7 @@ button {
   text-decoration: underline;
 }
 
-.usa-flag {
+usa-flag {
   width: 24px;
   height: 16px;
   margin-right: 8px;
@@ -249,7 +189,7 @@ button {
 
 .small-text {
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
   display: inline;
   line-height: 18px;
 }
@@ -262,5 +202,41 @@ button {
 .social-media i {
   padding: 10px;
   color: white;
-  font-size: 20px;
+  font-size: 1.3rem;
+}
+
+.usa-flag {
+  width: 24px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .grid-flex {
+    flex-direction: column;
+    text-align: center;
+    padding: 15% 5%;
+  }
+  .description-text {
+    width: 100%;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .left-img {
+    display: none;
+    float: right;
+  }
+}
+
+@media (max-width: 988px) {
+  .menu-nav {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
 }
