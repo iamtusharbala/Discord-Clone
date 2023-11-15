@@ -91,7 +91,6 @@ button {
 }
 
 .description {
-  padding: 5% 8%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,43 +149,37 @@ button {
 /* footer */
 
 #footer {
+  padding: 5% 8%;
   background-color: #23272a;
   position: relative;
   overflow: hidden;
   width: 100%;
+  display: flex;
 }
 
 .infobox {
-  position: absolute;
+  display: flex;
+  justify-content: start;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
 }
-
-.footer-links {
-  float: right;
-  position: relative;
-  right: 100px;
-}
-
 .routesection {
   float: left;
-  padding: 40px;
 }
 
 .routesection h5 {
   color: #5865f2;
-  font-size: 16px;
-}
-
-.footer-ul {
-  padding-left: 0;
 }
 
 .footer-ul li {
-  padding: 10px 0px;
+  margin: 5%;
 }
 
 .footer-ul li a {
   text-decoration: none;
   color: white;
+  padding: 5%;
 }
 
 .footer-ul li a:hover {
@@ -204,11 +197,6 @@ usa-flag {
   font-size: 1rem;
   display: inline;
   line-height: 18px;
-}
-
-.social-media {
-  margin-top: 24px;
-  margin-left: -11px;
 }
 
 .social-media i {
@@ -234,7 +222,7 @@ usa-flag {
   }
   .footer-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
