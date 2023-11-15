@@ -50,6 +50,9 @@ body {
   min-height: 40px;
   padding: auto;
 }
+.hamburger {
+  display: none;
+}
 
 ul {
   list-style: none;
@@ -79,7 +82,9 @@ button {
 }
 
 .grid-flex,
-.description {
+.description,
+.footer-text,
+.bottom {
   padding: 5% 8%;
 }
 
@@ -149,12 +154,15 @@ button {
 /* footer */
 
 #footer {
-  padding: 5% 8%;
   background-color: #23272a;
   position: relative;
   overflow: hidden;
   width: 100%;
+}
+
+.footer-text {
   display: flex;
+  justify-content: space-between;
 }
 
 .infobox {
@@ -166,10 +174,15 @@ button {
 }
 .routesection {
   float: left;
+  margin: 2%;
 }
 
 .routesection h5 {
   color: #5865f2;
+}
+
+.routesection ul {
+  padding: 0;
 }
 
 .footer-ul li {
@@ -211,18 +224,35 @@ usa-flag {
   margin-right: 8px;
 }
 
+.footer-links {
+  display: flex;
+  width: 70%;
+  justify-content: end;
+}
+
 @media (max-width: 768px) {
   .grid-flex {
     flex-direction: column;
     text-align: center;
     padding: 15% 5%;
   }
+  .open-discord {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: relative;
+    right: 5%;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
   .description-text {
     width: 100%;
   }
   .footer-links {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
