@@ -1,16 +1,13 @@
 html {
-  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-}
-
-.headline {
-  font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
-  text-transform: uppercase;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 h2 {
   font-size: 3rem;
+}
+p,
+h6 {
+  font-family: "Bellota Text", sans-serif;
 }
 
 h6 {
@@ -22,6 +19,30 @@ h6 {
 body {
   margin: 0;
   box-sizing: border-box;
+}
+
+.text h1 {
+  font-family: "Seymour One", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.text h2 {
+  font-family: "Seymour One", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.text-main {
+  padding: 0 22%;
+}
+.text-main h6 {
+  font-size: 1.2rem;
+}
+
+h2,
+.download h4 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 900;
 }
 
 .text-medium,
@@ -244,7 +265,22 @@ usa-flag {
     position: relative;
     right: 5%;
   }
+  .text h1 {
+    font-size: 2rem;
+  }
 
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text-main {
+    padding: 0;
+  }
+
+  h2,
+  .download h4 {
+    font-size: 1.2rem;
+  }
   .hamburger:hover {
     cursor: pointer;
   }
