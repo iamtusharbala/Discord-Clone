@@ -235,6 +235,7 @@ usa-flag {
   font-size: 1rem;
   display: inline;
   line-height: 18px;
+  margin: 2% 0;
 }
 
 .social-media {
@@ -242,7 +243,7 @@ usa-flag {
 }
 
 .social-media i {
-  padding: 10px;
+  padding: 0px 18px 19px 0;
   color: white;
   font-size: 1.3rem;
 }
@@ -344,5 +345,15 @@ usa-flag {
 @media (max-width: 720px) {
   .footer-links {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+  .footer-text {
+    flex-direction: column;
+  }
+  .footer-links {
+    gap: 0;
+    justify-content: space-between;
   }
 }
