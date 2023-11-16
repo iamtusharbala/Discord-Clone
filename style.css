@@ -194,26 +194,30 @@ button {
   flex-direction: column;
 }
 .routesection {
-  float: left;
-  margin: 2%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .routesection h5 {
   color: #5865f2;
+  font-weight: 100;
 }
 
+.routesection h5 {
+  font-size: 1rem;
+}
 .routesection ul {
   padding: 0;
 }
 
 .footer-ul li {
   margin: 5%;
+  padding: 5% 0;
 }
 
 .footer-ul li a {
   text-decoration: none;
   color: white;
-  padding: 5%;
+  font-weight: 100;
 }
 
 .footer-ul li a:hover {
@@ -233,6 +237,10 @@ usa-flag {
   line-height: 18px;
 }
 
+.social-media {
+  display: flex;
+}
+
 .social-media i {
   padding: 10px;
   color: white;
@@ -247,8 +255,8 @@ usa-flag {
 
 .footer-links {
   display: flex;
-  width: 70%;
-  justify-content: end;
+  justify-content: flex-end;
+  gap: 25%;
 }
 
 @media (max-width: 768px) {
@@ -289,8 +297,13 @@ usa-flag {
   }
   .footer-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
+    gap: 0;
+  }
+  .footer-text {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .left-img {
     display: none;
@@ -325,5 +338,11 @@ usa-flag {
   }
   .navbar {
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-links {
+    flex-direction: column;
   }
 }
